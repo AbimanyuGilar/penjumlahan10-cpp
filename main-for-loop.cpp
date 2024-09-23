@@ -4,8 +4,8 @@ using namespace std;
 int main() {
     int hasil = 0;
     
-    for(int i = 1; i <= 10; i++) {
-        hasil += i;
-        cout << hasil - i << " + " << i << " = " << hasil << endl;
+    for(int sum = 1; sum <= 10; sum++) {
+        hasil += sum;
+        cout << hasil - sum << " + " << sum << " = " << hasil << endl;
     }
 }

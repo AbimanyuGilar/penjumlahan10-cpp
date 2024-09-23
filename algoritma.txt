@@ -1,0 +1,8 @@
+1. inisialisasi awal hasil = 0
+2. inisialisasi awal sum = 1
+3. buat perulangan while(true)
+4. hasil ditambah sum
+5. tampilkan langkah penjumlahan saat ini
+6. jika sum mencapai 10, hentikan perulangan
+7. tambahkan sum dengan 1
+

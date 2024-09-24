@@ -2,18 +2,15 @@
 using namespace std;
 
 int main() {
-    int hasil = 0;
-    int penjumlahan = 1;
+    int hasil = 1;
+    int sum = 2;
 
-    while (true)
+    while (sum <= 10)
     {
-        hasil += penjumlahan;
+        hasil += sum;
 
-        cout << hasil - penjumlahan << " + " << penjumlahan << " = " << hasil << "\n";
+        cout << hasil - sum << " + " << sum << " = " << hasil << "\n";
         
-        if (penjumlahan == 10) {
-            break;
-        }
-        penjumlahan ++;
+        sum ++;
     }
 }
